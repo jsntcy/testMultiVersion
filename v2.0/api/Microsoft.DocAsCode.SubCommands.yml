@@ -1,0 +1,50 @@
+items:
+- uid: Microsoft.DocAsCode.SubCommands
+  commentId: N:Microsoft.DocAsCode.SubCommands
+  id: Microsoft.DocAsCode.SubCommands
+  children:
+  - Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
+  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  - Microsoft.DocAsCode.SubCommands.MetadataMerger
+  - Microsoft.DocAsCode.SubCommands.OptionParserException
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.DocAsCode.SubCommands
+  nameWithType: Microsoft.DocAsCode.SubCommands
+  fullName: Microsoft.DocAsCode.SubCommands
+  type: Namespace
+  assemblies:
+  - docfx
+references:
+- uid: Microsoft.DocAsCode.SubCommands.OptionParserException
+  commentId: T:Microsoft.DocAsCode.SubCommands.OptionParserException
+  isExternal: false
+  name: OptionParserException
+  nameWithType: OptionParserException
+  fullName: Microsoft.DocAsCode.SubCommands.OptionParserException
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  commentId: T:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  parent: Microsoft.DocAsCode.SubCommands
+  isExternal: false
+  name: MetadataMergeParameters
+  nameWithType: MetadataMergeParameters
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMerger
+  commentId: T:Microsoft.DocAsCode.SubCommands.MetadataMerger
+  isExternal: false
+  name: MetadataMerger
+  nameWithType: MetadataMerger
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMerger
+- uid: Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
+  commentId: T:Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
+  isExternal: false
+  name: CommandOptionAttribute
+  nameWithType: CommandOptionAttribute
+  fullName: Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
+- uid: Microsoft.DocAsCode.SubCommands
+  commentId: N:Microsoft.DocAsCode.SubCommands
+  isExternal: false
+  name: Microsoft.DocAsCode.SubCommands
+  nameWithType: Microsoft.DocAsCode.SubCommands
+  fullName: Microsoft.DocAsCode.SubCommands

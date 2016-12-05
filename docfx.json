@@ -1,0 +1,24 @@
+﻿{
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.yml", "**/*.md"],
+        "src": "v2.0",
+        "dest": "v2.0",
+        "version": "v2.0",
+        "rootTocPath": "~/v2.0/toc.html"
+      },
+      {
+        "files": ["**/*.yml", "**/*.md"],
+        "src": "v2.1",
+        "dest": "v2.1",
+        "version": "v2.1",
+        "rootTocPath": "~/toc.html"
+      },
+      {
+        "files": ["*.md", "*.yml"]
+      }
+    ],
+    "dest": "_site"
+  }
+}

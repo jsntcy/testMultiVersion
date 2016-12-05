@@ -1,0 +1,778 @@
+items:
+- uid: Microsoft.DocAsCode.SubCommands.OptionParserException
+  commentId: T:Microsoft.DocAsCode.SubCommands.OptionParserException
+  id: OptionParserException
+  parent: Microsoft.DocAsCode.SubCommands
+  children:
+  - Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor
+  - Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: OptionParserException
+  nameWithType: OptionParserException
+  fullName: Microsoft.DocAsCode.SubCommands.OptionParserException
+  type: Class
+  source:
+    remote:
+      path: src/docfx/CommandModels/OptionParserException.cs
+      branch: e9ab33e62608097b5680fee75b527f0413c20c86
+      repo: git@github.com:dotnet/docfx.git
+    id: OptionParserException
+    path: src/docfx/CommandModels/OptionParserException.cs
+    startLine: 7
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: 'public class OptionParserException : ArgumentException, _Exception, ISerializable'
+    content.vb: >-
+      Public Class OptionParserException
+          Inherits ArgumentException
+          Implements _Exception, ISerializable
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.ArgumentException
+  implements:
+  - System.Runtime.InteropServices._Exception
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ArgumentException.Message
+  - System.ArgumentException.ParamName
+  - System.Exception.GetBaseException
+  - System.Exception.ToString
+  - System.Exception.GetType
+  - System.Exception.Data
+  - System.Exception.InnerException
+  - System.Exception.TargetSite
+  - System.Exception.StackTrace
+  - System.Exception.HelpLink
+  - System.Exception.Source
+  - System.Exception.HResult
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor
+  commentId: M:Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor
+  id: '#ctor'
+  parent: Microsoft.DocAsCode.SubCommands.OptionParserException
+  langs:
+  - csharp
+  - vb
+  name: OptionParserException()
+  nameWithType: OptionParserException.OptionParserException()
+  fullName: Microsoft.DocAsCode.SubCommands.OptionParserException.OptionParserException()
+  type: Constructor
+  source:
+    remote:
+      path: src/docfx/CommandModels/OptionParserException.cs
+      branch: e9ab33e62608097b5680fee75b527f0413c20c86
+      repo: git@github.com:dotnet/docfx.git
+    id: .ctor
+    path: src/docfx/CommandModels/OptionParserException.cs
+    startLine: 9
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public OptionParserException()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor(System.String)
+  commentId: M:Microsoft.DocAsCode.SubCommands.OptionParserException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Microsoft.DocAsCode.SubCommands.OptionParserException
+  langs:
+  - csharp
+  - vb
+  name: OptionParserException(String)
+  nameWithType: OptionParserException.OptionParserException(String)
+  fullName: Microsoft.DocAsCode.SubCommands.OptionParserException.OptionParserException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/docfx/CommandModels/OptionParserException.cs
+      branch: e9ab33e62608097b5680fee75b527f0413c20c86
+      repo: git@github.com:dotnet/docfx.git
+    id: .ctor
+    path: src/docfx/CommandModels/OptionParserException.cs
+    startLine: 13
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public OptionParserException(string message)
+    content.vb: Public Sub New(message As String)
+    parameters:
+    - id: message
+      type: System.String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.DocAsCode.SubCommands
+  commentId: N:Microsoft.DocAsCode.SubCommands
+  isExternal: false
+  name: Microsoft.DocAsCode.SubCommands
+  nameWithType: Microsoft.DocAsCode.SubCommands
+  fullName: Microsoft.DocAsCode.SubCommands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.SystemException
+  commentId: T:System.SystemException
+  parent: System
+  isExternal: true
+  name: SystemException
+  nameWithType: SystemException
+  fullName: System.SystemException
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.Runtime.InteropServices._Exception
+  commentId: T:System.Runtime.InteropServices._Exception
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: _Exception
+  nameWithType: _Exception
+  fullName: System.Runtime.InteropServices._Exception
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ArgumentException
+  isExternal: true
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: ArgumentException.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: ArgumentException.GetObjectData
+    fullName: System.ArgumentException.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: ArgumentException.GetObjectData
+    fullName: System.ArgumentException.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArgumentException.Message
+  commentId: P:System.ArgumentException.Message
+  parent: System.ArgumentException
+  isExternal: true
+  name: Message
+  nameWithType: ArgumentException.Message
+  fullName: System.ArgumentException.Message
+- uid: System.ArgumentException.ParamName
+  commentId: P:System.ArgumentException.ParamName
+  parent: System.ArgumentException
+  isExternal: true
+  name: ParamName
+  nameWithType: ArgumentException.ParamName
+  fullName: System.ArgumentException.ParamName
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  commentId: M:Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  parent: Microsoft.DocAsCode.Common.JsonUtility
+  definition: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  name: ToJsonString(Formatting, JsonSerializer)
+  nameWithType: JsonUtility.ToJsonString(Formatting, JsonSerializer)
+  fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting, Newtonsoft.Json.JsonSerializer)
+  spec.csharp:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+- uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  commentId: M:Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  isExternal: true
+  name: ToJsonString(Object, Formatting, JsonSerializer)
+  nameWithType: JsonUtility.ToJsonString(Object, Formatting, JsonSerializer)
+  fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object, Newtonsoft.Json.Formatting, Newtonsoft.Json.JsonSerializer)
+  spec.csharp:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.DocAsCode.Common.JsonUtility
+  commentId: T:Microsoft.DocAsCode.Common.JsonUtility
+  parent: Microsoft.DocAsCode.Common
+  isExternal: false
+  name: JsonUtility
+  nameWithType: JsonUtility
+  fullName: Microsoft.DocAsCode.Common.JsonUtility
+- uid: Microsoft.DocAsCode.Common
+  commentId: N:Microsoft.DocAsCode.Common
+  isExternal: false
+  name: Microsoft.DocAsCode.Common
+  nameWithType: Microsoft.DocAsCode.Common
+  fullName: Microsoft.DocAsCode.Common
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

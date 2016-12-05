@@ -1,0 +1,766 @@
+items:
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  commentId: T:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  id: MetadataMergeParameters
+  parent: Microsoft.DocAsCode.SubCommands
+  children:
+  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.FileMetadata
+  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Files
+  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Metadata
+  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.OutputBaseDir
+  langs:
+  - csharp
+  - vb
+  name: MetadataMergeParameters
+  nameWithType: MetadataMergeParameters
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  type: Class
+  source:
+    remote:
+      path: src/docfx/SubCommands/MetadataMergeParameters.cs
+      branch: 96c6819cbeb6a525f5f19f0143e96458ebdbfec1
+      repo: git@github.com:dotnet/docfx.git
+    id: MetadataMergeParameters
+    path: src/docfx/SubCommands/MetadataMergeParameters.cs
+    startLine: 9
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public class MetadataMergeParameters
+    content.vb: Public Class MetadataMergeParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Files
+  commentId: P:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Files
+  id: Files
+  parent: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  langs:
+  - csharp
+  - vb
+  name: Files
+  nameWithType: MetadataMergeParameters.Files
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Files
+  type: Property
+  source:
+    remote:
+      path: src/docfx/SubCommands/MetadataMergeParameters.cs
+      branch: 96c6819cbeb6a525f5f19f0143e96458ebdbfec1
+      repo: git@github.com:dotnet/docfx.git
+    id: Files
+    path: src/docfx/SubCommands/MetadataMergeParameters.cs
+    startLine: 11
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public FileCollection Files { get; set; }
+    content.vb: Public Property Files As FileCollection
+    parameters: []
+    return:
+      type: Microsoft.DocAsCode.Build.Engine.FileCollection
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.OutputBaseDir
+  commentId: P:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.OutputBaseDir
+  id: OutputBaseDir
+  parent: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  langs:
+  - csharp
+  - vb
+  name: OutputBaseDir
+  nameWithType: MetadataMergeParameters.OutputBaseDir
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.OutputBaseDir
+  type: Property
+  source:
+    remote:
+      path: src/docfx/SubCommands/MetadataMergeParameters.cs
+      branch: 96c6819cbeb6a525f5f19f0143e96458ebdbfec1
+      repo: git@github.com:dotnet/docfx.git
+    id: OutputBaseDir
+    path: src/docfx/SubCommands/MetadataMergeParameters.cs
+    startLine: 12
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public string OutputBaseDir { get; set; }
+    content.vb: Public Property OutputBaseDir As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Metadata
+  commentId: P:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Metadata
+  id: Metadata
+  parent: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: MetadataMergeParameters.Metadata
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.Metadata
+  type: Property
+  source:
+    remote:
+      path: src/docfx/SubCommands/MetadataMergeParameters.cs
+      branch: 96c6819cbeb6a525f5f19f0143e96458ebdbfec1
+      repo: git@github.com:dotnet/docfx.git
+    id: Metadata
+    path: src/docfx/SubCommands/MetadataMergeParameters.cs
+    startLine: 13
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public ImmutableDictionary<string, object> Metadata { get; set; }
+    content.vb: Public Property Metadata As ImmutableDictionary(Of String, Object)
+    parameters: []
+    return:
+      type: System.Collections.Immutable.ImmutableDictionary{System.String,System.Object}
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.FileMetadata
+  commentId: P:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.FileMetadata
+  id: FileMetadata
+  parent: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+  langs:
+  - csharp
+  - vb
+  name: FileMetadata
+  nameWithType: MetadataMergeParameters.FileMetadata
+  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters.FileMetadata
+  type: Property
+  source:
+    remote:
+      path: src/docfx/SubCommands/MetadataMergeParameters.cs
+      branch: 96c6819cbeb6a525f5f19f0143e96458ebdbfec1
+      repo: git@github.com:dotnet/docfx.git
+    id: FileMetadata
+    path: src/docfx/SubCommands/MetadataMergeParameters.cs
+    startLine: 14
+  assemblies:
+  - docfx
+  namespace: Microsoft.DocAsCode.SubCommands
+  syntax:
+    content: public FileMetadata FileMetadata { get; set; }
+    content.vb: Public Property FileMetadata As FileMetadata
+    parameters: []
+    return:
+      type: Microsoft.DocAsCode.Build.Engine.FileMetadata
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.DocAsCode.SubCommands
+  commentId: N:Microsoft.DocAsCode.SubCommands
+  isExternal: false
+  name: Microsoft.DocAsCode.SubCommands
+  nameWithType: Microsoft.DocAsCode.SubCommands
+  fullName: Microsoft.DocAsCode.SubCommands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  commentId: M:Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  parent: Microsoft.DocAsCode.Common.JsonUtility
+  definition: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  name: ToJsonString(Formatting, JsonSerializer)
+  nameWithType: JsonUtility.ToJsonString(Formatting, JsonSerializer)
+  fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting, Newtonsoft.Json.JsonSerializer)
+  spec.csharp:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  commentId: M:Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+  isExternal: true
+  name: ToJsonString(Object, Formatting, JsonSerializer)
+  nameWithType: JsonUtility.ToJsonString(Object, Formatting, JsonSerializer)
+  fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object, Newtonsoft.Json.Formatting, Newtonsoft.Json.JsonSerializer)
+  spec.csharp:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString(System.Object,Newtonsoft.Json.Formatting,Newtonsoft.Json.JsonSerializer)
+    name: ToJsonString
+    nameWithType: JsonUtility.ToJsonString
+    fullName: Microsoft.DocAsCode.Common.JsonUtility.ToJsonString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Formatting
+    name: Formatting
+    nameWithType: Formatting
+    fullName: Newtonsoft.Json.Formatting
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializer
+    name: JsonSerializer
+    nameWithType: JsonSerializer
+    fullName: Newtonsoft.Json.JsonSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.DocAsCode.Common.JsonUtility
+  commentId: T:Microsoft.DocAsCode.Common.JsonUtility
+  parent: Microsoft.DocAsCode.Common
+  isExternal: false
+  name: JsonUtility
+  nameWithType: JsonUtility
+  fullName: Microsoft.DocAsCode.Common.JsonUtility
+- uid: Microsoft.DocAsCode.Common
+  commentId: N:Microsoft.DocAsCode.Common
+  isExternal: false
+  name: Microsoft.DocAsCode.Common
+  nameWithType: Microsoft.DocAsCode.Common
+  fullName: Microsoft.DocAsCode.Common
+- uid: Microsoft.DocAsCode.Build.Engine.FileCollection
+  commentId: T:Microsoft.DocAsCode.Build.Engine.FileCollection
+  parent: Microsoft.DocAsCode.Build.Engine
+  isExternal: false
+  name: FileCollection
+  nameWithType: FileCollection
+  fullName: Microsoft.DocAsCode.Build.Engine.FileCollection
+- uid: Microsoft.DocAsCode.Build.Engine
+  commentId: N:Microsoft.DocAsCode.Build.Engine
+  isExternal: false
+  name: Microsoft.DocAsCode.Build.Engine
+  nameWithType: Microsoft.DocAsCode.Build.Engine
+  fullName: Microsoft.DocAsCode.Build.Engine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Immutable.ImmutableDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Immutable.ImmutableDictionary{System.String,System.Object}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableDictionary`2
+  name: ImmutableDictionary<String, Object>
+  nameWithType: ImmutableDictionary<String, Object>
+  fullName: System.Collections.Immutable.ImmutableDictionary<System.String, System.Object>
+  nameWithType.vb: ImmutableDictionary(Of String, Object)
+  fullname.vb: System.Collections.Immutable.ImmutableDictionary(Of System.String, System.Object)
+  name.vb: ImmutableDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableDictionary`2
+    name: ImmutableDictionary
+    nameWithType: ImmutableDictionary
+    fullName: System.Collections.Immutable.ImmutableDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableDictionary`2
+    name: ImmutableDictionary
+    nameWithType: ImmutableDictionary
+    fullName: System.Collections.Immutable.ImmutableDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Immutable.ImmutableDictionary`2
+  commentId: T:System.Collections.Immutable.ImmutableDictionary`2
+  isExternal: true
+  name: ImmutableDictionary<TKey, TValue>
+  nameWithType: ImmutableDictionary<TKey, TValue>
+  fullName: System.Collections.Immutable.ImmutableDictionary<TKey, TValue>
+  nameWithType.vb: ImmutableDictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Immutable.ImmutableDictionary(Of TKey, TValue)
+  name.vb: ImmutableDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableDictionary`2
+    name: ImmutableDictionary
+    nameWithType: ImmutableDictionary
+    fullName: System.Collections.Immutable.ImmutableDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableDictionary`2
+    name: ImmutableDictionary
+    nameWithType: ImmutableDictionary
+    fullName: System.Collections.Immutable.ImmutableDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
+  isExternal: false
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
+- uid: Microsoft.DocAsCode.Build.Engine.FileMetadata
+  commentId: T:Microsoft.DocAsCode.Build.Engine.FileMetadata
+  parent: Microsoft.DocAsCode.Build.Engine
+  isExternal: false
+  name: FileMetadata
+  nameWithType: FileMetadata
+  fullName: Microsoft.DocAsCode.Build.Engine.FileMetadata

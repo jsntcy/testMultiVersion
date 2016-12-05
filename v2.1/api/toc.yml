@@ -1,0 +1,11 @@
+- uid: Microsoft.DocAsCode.SubCommands
+  name: Microsoft.DocAsCode.SubCommands
+  items:
+  - uid: Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
+    name: CommandOptionAttribute
+  - uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
+    name: MetadataMergeParameters
+  - uid: Microsoft.DocAsCode.SubCommands.MetadataMerger
+    name: MetadataMerger
+  - uid: Microsoft.DocAsCode.SubCommands.OptionParserException
+    name: OptionParserException
