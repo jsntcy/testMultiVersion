@@ -1,1 +1,16 @@
-_site
+log/
+xhtml/
+packages/
+obj/
+_site/
+Tools/NuGet/
+.optemp/
+_themes/
+_themes.MSDN.Modern/
+_themes.OPS/
+_themes.VS.Modern/
+_themes.TechNet.Modern/
+
+.openpublishing.build.mdproj
+.openpublishing.buildcore.ps1
+packages.config
