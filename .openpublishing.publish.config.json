@@ -4,7 +4,7 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "testMultipleVersion",
+      "docset_name": "fenxu_internal_testMultipleVersion",
       "build_source_folder": "testMultipleVersion",
       "build_output_subfolder": "testMultipleVersion",
       "locale": "en-us",
