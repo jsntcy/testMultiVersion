@@ -4,7 +4,7 @@
       {
         "files": ["**/*.yml", "**/*.md"],
         "src": "v2.0",
-        "version": "v2.0",
+        "version": "testMoniker-1.0_justfortest",
         "rootTocPath": "v2.0/toc.html",
         "exclude": [
           "**/obj/**",
@@ -17,7 +17,7 @@
       {
         "files": ["**/*.yml", "**/*.md"],
         "src": "v2.1",
-        "version": "v2.1",
+        "version": "testMoniker-1.1_justfortest",
         "rootTocPath": "toc.html",
         "exclude": [
           "**/obj/**",
@@ -32,10 +32,10 @@
       }
     ],
     "versions": {
-      "v2.0": {
+      "testMoniker-1.0_justfortest": {
         "dest": "v2.0"
       },
-      "v2.1": {
+      "testMoniker-1.1_justfortest": {
         "dest": "v2.1"
       }
     },
