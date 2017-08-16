@@ -1,5 +1,5 @@
 {
-  "build_entry_point": "op",
+  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
@@ -9,6 +9,7 @@
       "build_output_subfolder": "testMultipleVersion",
       "locale": "en-us",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
