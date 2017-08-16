@@ -5,7 +5,7 @@
   "continue_with_document_error": true,
   "docsets_to_publish": [
     {
-      "docset_name": "fenxu_internal_testMultipleVersion",
+      "docset_name": "jsntcy_ppe_testMultipleVersion",
       "build_source_folder": "testMultipleVersion",
       "build_output_subfolder": "testMultipleVersion",
       "locale": "en-us",
