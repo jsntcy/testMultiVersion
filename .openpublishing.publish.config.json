@@ -1,15 +1,15 @@
 {
-  "build_entry_point": "op",
+  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "continue_with_document_error": true,
   "docsets_to_publish": [
     {
-      "docset_name": "jsntcy_ppe_testMultipleVersion",
+      "docset_name": "fenxu_internal_testMultipleVersion",
       "build_source_folder": "testMultipleVersion",
       "build_output_subfolder": "testMultipleVersion",
       "locale": "en-us",
-      "monikers": ["testMoniker-2.0_justfortest"],
+      "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -18,12 +18,16 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "test_folder": "xyz"
+      "version": 0
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/OPS-E2E-PPE/E2E_DocsBranch_Dynamic",
+  "git_repository_branch_open_to_public_contributors": "master",
+  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -32,7 +36,5 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "git_repository_url_open_to_public_contributors": "https://github.com/OPS-E2E-PPE/E2E_DocsBranch_Dynamic",
-  "git_repository_branch_open_to_public_contributors": "master"
+  "need_generate_pdf_url_template": false
 }
